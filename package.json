@@ -1,0 +1,18 @@
+{
+  "name": "intern-assignment",
+  "version": "1.0.0",
+  "description": "This API handles tasks with user-specific rate limiting. It supports two rate limits:\r - **1 task per second per user**\r - **20 tasks per minute per user**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "redis": "^4.7.0"
+  }
+}
